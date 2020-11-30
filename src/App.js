@@ -1,11 +1,13 @@
-
 import './App.css';
+import Dashboard from './components/Dashboard';
+import HeaderComponent from './components/layout/HeaderComponent';
 
 function App() {
   return (
-    <h1>
-      My First React App
-    </h1>
+  <div>
+  <HeaderComponent/>
+  <Dashboard/>
+  </div>
   );
 }
 
